@@ -12,4 +12,9 @@ Here we have used Inception V3 as encoder and GRU decoder.
 * This vector is then passed through the CNN Encoder (which consists of a single Fully connected layer).
 * The RNN (here GRU) attends over the image to predict the next word.
 * The model was trained on a subset of the Coco2017 Dataset for 100 epochs.
+
+# Architecture:-
+![Image Captioning Architecture](https://github.com/PranjalChitale/ImageCaptioning/blob/master/ImageCaptioningArchitecture.jpg?raw=true)
+
+
  
